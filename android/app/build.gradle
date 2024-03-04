@@ -109,6 +109,9 @@ dependencies {
     implementation("com.facebook.react:react-android")
     implementation("com.facebook.react:flipper-integration")
 
+    implementation 'io.lastcrash:lastcrash-android:1.1.6'
+//    implementation("androidx.lifecycle:lifecycle-runtime:2.6.2")
+
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
     } else {

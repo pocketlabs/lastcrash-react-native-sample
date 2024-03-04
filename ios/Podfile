@@ -39,6 +39,8 @@ target 'lastcrashRNSample' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'LastCrash', '1.1.6'
+
   target 'lastcrashRNSampleTests' do
     inherit! :complete
     # Pods for testing

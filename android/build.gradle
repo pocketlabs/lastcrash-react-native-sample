@@ -18,4 +18,10 @@ buildscript {
     }
 }
 
+allprojects {
+    repositories {
+        maven { url "https://mvn.lastcrash.io/releases" }
+    }
+}
+
 apply plugin: "com.facebook.react.rootproject"

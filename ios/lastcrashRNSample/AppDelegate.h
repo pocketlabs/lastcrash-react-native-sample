@@ -1,6 +1,8 @@
 #import <RCTAppDelegate.h>
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : RCTAppDelegate
+#import <LastCrash/LastCrash.h>
+
+@interface AppDelegate : RCTAppDelegate <LastCrashDelegate>
 
 @end
