@@ -20,7 +20,7 @@ class MainActivity : ReactActivity(), LastCrashListener {
         super.onCreate(savedInstanceState)
 
         LastCrash.setListener(this);
-        LastCrash.configure("API_KEY", this, true);
+        LastCrash.configure("<REPLACE WITH YOUR LASTCRASH PROVIDED API KEY>", this, true);
     }
 
   /**

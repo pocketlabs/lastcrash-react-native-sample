@@ -11,7 +11,7 @@
   // They will be passed down to the ViewController used by React Native.
   self.initialProps = @{};
   
-    [LastCrash configure:@"API_KEY"];
+    [LastCrash configure:@"<REPLACE WITH YOUR LASTCRASH PROVIDED API KEY>"];
     [LastCrash enabledLogging];
     [LastCrash setDelegate:self];
 
